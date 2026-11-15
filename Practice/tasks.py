@@ -42,6 +42,7 @@ for i in range(1, 11):
 
 # Student Record
 StudentRecord =("S23BSEEN1M01136", "ARSLAN SARWAR", "3.64/4.00")
-print(f"Student ID: {StudentRecord[0]}")
-print(f"Name: {StudentRecord[1]}")
-print(f"CGPA: {StudentRecord[2]}")
+id,name,CGPA= StudentRecord
+print(f"Student ID: {id}")
+print(f"Name: {name}")
+print(f"CGPA: {CGPA}")
