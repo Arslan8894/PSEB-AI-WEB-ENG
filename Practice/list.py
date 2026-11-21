@@ -13,8 +13,8 @@ print(_list[5])
 print(_list[0:3])
 
 name = ["MUKARRAM", "ALI", "KHAN"]
-charul = name[0]
-print(charul)
+Student = name[0]
+print(Student)
 
 
 name = "Arslan"
